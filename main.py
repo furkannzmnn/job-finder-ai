@@ -34,13 +34,11 @@ async def main():
 
     ai_message = llm.invoke(messages)
 
-    # AI mesaj içeriğini string olarak al
     cleaned_json_str = re.sub(r'```json|```', '', ai_message.content).strip()
 
     try:
         json_data = json.loads(cleaned_json_str)
 
-        # JSON verisini dosyaya kaydet
         with open("jobs.json", "w", encoding="utf-8") as json_file:
             json.dump(json_data, json_file, ensure_ascii=False, indent=4)
 
