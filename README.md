@@ -1,4 +1,4 @@
-# Java Developer İş İlanları - Türkiye
+# Software Developer İş İlanları - Türkiye
 
 Bu dosya, Türkiye konumundaki Java Developer iş ilanlarını içermektedir.
 
