@@ -8,11 +8,10 @@ with open("jobs.json", "r", encoding="utf-8") as file:
     jobs_data = json.load(file)
 
 
-# Markdown içeriğini oluştur
 markdown_content = """\
-# Java Developer İş İlanları - Türkiye
+# İş İlanları - Türkiye
 
-Bu dosya, Türkiye konumundaki Java Developer iş ilanlarını içermektedir.
+Bu dosya, Türkiye konumundaki Developer iş ilanlarını içermektedir.
 
 ## 📌 İş İlanları
 
