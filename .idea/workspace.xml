@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635551d5-0fba-4e84-8586-3d49dcaa1f32" name="Changes" comment="refactor main.py to clean up JSON extraction and file saving logic">
-      <change afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
-    </list>
+    <list default="true" id="635551d5-0fba-4e84-8586-3d49dcaa1f32" name="Changes" comment="enhance main.py to allow dynamic job title input for LinkedIn job searches" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739628949406</updated>
       <workItem from="1739628950424" duration="1092000" />
-      <workItem from="1739630054409" duration="10802000" />
+      <workItem from="1739630054409" duration="11179000" />
     </task>
     <task id="LOCAL-00001" summary="init job ai project">
       <option name="closed" value="true" />
@@ -110,7 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739705981751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add read.md to document Java Developer job listings in Turkey">
+      <option name="closed" value="true" />
+      <created>1739706085317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739706085317</updated>
+    </task>
+    <task id="LOCAL-00005" summary="enhance main.py to allow dynamic job title input for LinkedIn job searches">
+      <option name="closed" value="true" />
+      <created>1739706216853</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739706216853</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,26 +134,28 @@
     <MESSAGE value="init job ai project" />
     <MESSAGE value="add .env file and enhance main.py to extract job listings in JSON format" />
     <MESSAGE value="refactor main.py to clean up JSON extraction and file saving logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor main.py to clean up JSON extraction and file saving logic" />
+    <MESSAGE value="add read.md to document Java Developer job listings in Turkey" />
+    <MESSAGE value="enhance main.py to allow dynamic job title input for LinkedIn job searches" />
+    <option name="LAST_COMMIT_MESSAGE" value="enhance main.py to allow dynamic job title input for LinkedIn job searches" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739705822934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739706191643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1739705000485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio" />
   </component>
 </project>
