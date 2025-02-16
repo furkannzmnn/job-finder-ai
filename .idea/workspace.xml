@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635551d5-0fba-4e84-8586-3d49dcaa1f32" name="Changes" comment="add jobs.json and markdown_witer.py to document job listings for Java Developer positions in Turkey">
-      <change afterPath="$PROJECT_DIR$/agent_history.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markdown_witer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raw_product_data.text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="635551d5-0fba-4e84-8586-3d49dcaa1f32" name="Changes" comment="add jobs.json and markdown_witer.py to document job listings for Java Developer positions in Turkey" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739628949406</updated>
       <workItem from="1739628950424" duration="1092000" />
-      <workItem from="1739630054409" duration="11995000" />
+      <workItem from="1739630054409" duration="12303000" />
     </task>
     <task id="LOCAL-00001" summary="init job ai project">
       <option name="closed" value="true" />
@@ -139,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739707300042</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add jobs.json and markdown_witer.py to document job listings for Java Developer positions in Turkey">
+      <option name="closed" value="true" />
+      <created>1739707547934</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739707547934</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +174,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$markdown_witer.coverage" NAME="markdown_witer Coverage Results" MODIFIED="1739707279048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739706191643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739707604050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1739705000485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio" />
   </component>
 </project>
