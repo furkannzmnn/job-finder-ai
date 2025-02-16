@@ -8,7 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 async def main():
-    search_query = "Java Developer site:linkedin.com/jobs location:Turkey"
+    job_query = input("Enter job title: ")
+    search_query = f"{job_query} site:linkedin.com/jobs location:Turkey"
     agent = Agent(
         task=f"Go to Google and search '{search_query}', then extract job listings with their URLs. Listed maximum 5 jobs. ",
         llm=ChatGoogleGenerativeAI(model="gemini-2.0-flash-exp"),
