@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635551d5-0fba-4e84-8586-3d49dcaa1f32" name="Changes" comment="init job ai project">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="635551d5-0fba-4e84-8586-3d49dcaa1f32" name="Changes" comment="refactor main.py to clean up JSON extraction and file saving logic">
+      <change afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739628949406</updated>
       <workItem from="1739628950424" duration="1092000" />
-      <workItem from="1739630054409" duration="10452000" />
+      <workItem from="1739630054409" duration="10802000" />
     </task>
     <task id="LOCAL-00001" summary="init job ai project">
       <option name="closed" value="true" />
@@ -96,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739643361424</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add .env file and enhance main.py to extract job listings in JSON format">
+      <option name="closed" value="true" />
+      <created>1739705961311</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739705961311</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor main.py to clean up JSON extraction and file saving logic">
+      <option name="closed" value="true" />
+      <created>1739705981751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739705981751</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,26 +118,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init job ai project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init job ai project" />
+    <MESSAGE value="add .env file and enhance main.py to extract job listings in JSON format" />
+    <MESSAGE value="refactor main.py to clean up JSON extraction and file saving logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor main.py to clean up JSON extraction and file saving logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>50</line>
+          <line>48</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>26</line>
+          <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739705648908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1739705822934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1739705000485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio" />
   </component>
 </project>
